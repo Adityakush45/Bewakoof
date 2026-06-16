@@ -28,7 +28,7 @@ public class CartController {
 
     @DeleteMapping("/deleteFromCart/{prodId}/{id}")
     public void deleteFromCart(@PathVariable int prodId,@PathVariable int id){
-
+        System.out.println("hello");
          cartService.deleteFromCart(id,prodId);
     }
 
