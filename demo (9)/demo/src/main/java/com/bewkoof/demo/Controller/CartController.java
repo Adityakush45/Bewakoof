@@ -37,4 +37,8 @@ public class CartController {
         return cartService.goToCart(id);
     }
 
+    public void newbranch(){
+        System.out.println("hello");
+    }
+
 }
